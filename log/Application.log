@@ -1,0 +1,47 @@
+2018-01-05 16:47:45,548 INFO  [TestLog] ######################### Starting on New Suite:-  05-Jan-2018_16-47-45################################# 
+2018-01-05 16:47:45,558 INFO  [TestLog] Rows deleted 
+2018-01-05 16:47:45,560 INFO  [TestLog] Excel written successfully.. 
+2018-01-05 16:47:45,564 INFO  [TestLog] Deleted files inside Screenshot Folder 
+2018-01-05 16:47:45,564 INFO  [TestLog] Deleted files inside backup Report Folder 
+2018-01-05 16:47:45,564 INFO  [TestLog] Deleted Screenshots insise ZipScreentshots folder 
+2018-01-05 16:47:45,592 INFO  [TestLog] *********Test Case 36 Verify the Updation of User provided Service instances on chrome browser for UI through selenium :- ********** 
+2018-01-05 16:47:47,181 INFO  [TestLog] CHROME Browser opened 
+2018-01-05 16:47:47,300 INFO  [TestLog] window Maximised 
+2018-01-05 16:48:05,331 INFO  [TestLog] URL Opened 
+2018-01-05 16:48:13,779 INFO  [TestLog] User Logged In Successfully 
+2018-01-05 16:48:13,781 INFO  [TestLog] Login sucessfull 
+2018-01-05 16:48:14,268 INFO  [TestLog] setUp method passed 
+2018-01-05 16:48:14,268 INFO  [TestLog] In ExtntRep method driver is null 
+2018-01-05 16:48:16,422 INFO  [TestLog] Flash Text Message After org creation is :-  Organization name is already existed:'AutomationOrg'. 
+2018-01-05 16:48:19,014 INFO  [TestLog] listvieworg** Is Displayed and will be clicked ** 
+2018-01-05 16:48:26,123 INFO  [TestLog] **Else of Pagination control ** 
+2018-01-05 16:48:26,124 INFO  [TestLog] space Name:- AutomationOrg 
+2018-01-05 16:48:31,287 INFO  [TestLog] AutomationOrg** Is Displayed and  clicked ** 
+2018-01-05 16:48:33,787 INFO  [TestLog] New ORGANATION AutomationOrg was Already Present 
+2018-01-05 16:48:35,664 INFO  [TestLog] orgCreation method passed 
+2018-01-05 16:48:35,664 INFO  [TestLog] In ExtntRep method driver is null 
+2018-01-05 16:48:36,533 INFO  [TestLog] ******successfully clicked on createspace 
+2018-01-05 16:48:37,098 INFO  [TestLog]  Flash message after space creation is :- Space name is already existed:'AutomationSpace'. 
+2018-01-05 16:48:37,141 INFO  [TestLog] listviewspace** Is Displayed and will be clicked ** 
+2018-01-05 16:48:44,223 INFO  [TestLog] **Else of Pagination control ** 
+2018-01-05 16:48:44,223 INFO  [TestLog] space Name:- AutomationSpace 
+2018-01-05 16:48:49,382 INFO  [TestLog] AutomationSpace** Is Displayed and  clicked ** 
+2018-01-05 16:48:51,883 INFO  [TestLog] Space already created  :AutomationSpace 
+2018-01-05 16:48:57,272 INFO  [TestLog] createSpace method passed 
+2018-01-05 16:48:57,272 INFO  [TestLog] In ExtntRep method driver is null 
+2018-01-05 16:49:08,514 INFO  [TestLog] 8000 Prt number in the proper range 
+2018-01-05 16:49:08,878 INFO  [TestLog] Clicked btn to create service instance 
+2018-01-05 16:49:09,951 INFO  [TestLog] In create cups mssage 
+2018-01-05 16:49:09,951 INFO  [TestLog] Testing service instance created Successfully 
+2018-01-05 16:49:14,379 INFO  [TestLog] createUserProvidedServiceInstance method passed 
+2018-01-05 16:49:14,379 INFO  [TestLog] In ExtntRep method driver is null 
+2018-01-05 16:49:15,123 INFO  [TestLog] 4 Port is a  number and in defined range 
+2018-01-05 16:49:21,489 INFO  [TestLog] Successfully updated the user provided service instance********* 
+2018-01-05 16:49:21,489 INFO  [TestLog] updated service instance Updated Successfully 
+2018-01-05 16:49:21,863 INFO  [TestLog] updateOfUserProvidedServiceInstance method passed 
+2018-01-05 16:49:21,863 INFO  [TestLog] In ExtntRep method driver is null 
+2018-01-05 16:49:23,316 INFO  [TestLog] closed browser 
+2018-01-05 16:49:23,393 INFO  [TestLog] ************** Test Case 36 Verify the Updation of User provided Service instances on chrome browser for UI through selenium :- ************** 
+2018-01-05 16:49:23,414 INFO  [TestLog] In After suites 
+2018-01-05 16:49:23,420 INFO  [TestLog] After Suite Reports Generated 
+2018-01-05 16:49:23,458 INFO  [TestLog] After Suite screen shots backup is taken and zip file is created 

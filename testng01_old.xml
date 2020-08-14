@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="UI_Console_Smoke">
+
+ 
+	<test name="Test:- Basic">
+		<classes>
+			<class name="cf.test.testBasic" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Test4:- To verify whether Twitter Link is navigated to Twitter Page">
+    <classes>
+      <class name="cf.test.verifyTwiterLink"/>
+    </classes>
+   </test> <!-- Test -->
+   
+   <test name="Test22:- To verify whether Facebook Link is navigated to YouTube Page">
+    <classes>
+      <class name="cf.test.verifyYouTubeLink"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

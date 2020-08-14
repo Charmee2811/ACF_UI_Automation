@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="UI_Console_Smoke">
+ 
+       
+        <test name="Test2:- To verify whether Non Admin user is able to open dashboard page of Admin user">
+       <classes>
+      <class name="cf.test.verifyNonAdminLogin"/>
+    </classes>
+    </test> <!-- Test -->
+    
+   <test name="Test3:- To verify whether correct message is displayed when a role is unassigned to a user">
+    <classes>
+      <class name="cf.test.verifyMessageRoleUnassigned"/>
+    </classes>
+   </test> <!-- Test -->
+   
+
+   <test name="Test4:- To verify if user is able to acess the organisation and market place link and also if user is able to see service list  if user is  assigned NO role">
+    <classes>
+      <class name="cf.test.verifyAccessNORole"/>
+    </classes>
+   </test> <!-- Test -->
+ 
+   <test name="Test5:- To verify if user is able to acess the organisation and market place link and also if user is able to see service list  if user is  assigned a Manager role">
+    <classes>
+      <class name="cf.test.verifyAccessRole"/>
+    </classes>
+   </test> <!-- Test -->
+ 
+    <test name="Test6:-  To verify whether user can create an org and assign that org a name which has a space in between">
+    <classes>
+      <class name="cf.test.createOrgWithSpace"/>
+    </classes>
+   </test> <!-- Test -->
+ 
+   <test name="Test7:- To verify whether the selected App is Started">
+    <classes>
+      <class name="cf.test.verifyAppStarted"/>
+    </classes>
+   </test> <!-- Test -->
+ 
+     <test name="Test8 :- To verify whether the selected App is Restaged">
+    <classes>
+      <class name="cf.test.verifyAppRestaged"/>
+    </classes>
+   </test> <!-- Test -->
+ 
+   <test name="Test9:-To verify for the browsers compatibility for browser for latest version   using selenium Scriptt ">
+   <classes>
+      <class name="cf.test.VerifyBrowserCompatiblility"/>
+   </classes>
+   </test> <!-- Test -->
+   
+   <test name="Test10:- To verify whether the selected value gets added to drop down when user scale app memory">
+    <classes>
+      <class name="cf.test.verifyAppScale"/>
+    </classes>
+   </test> <!-- Test -->
+   
+   <test name="Test11:- To verify whether the selected App is Stopped">
+    <classes>
+      <class name="cf.test.verifyAppStoped"/>
+    </classes>
+   </test> <!-- Test -->
+ 
+     <test name="Test12:- To verify whether the selected App is Deleted">
+    <classes>
+      <class name="cf.test.verifyAppDeleted"/>
+    </classes>
+   </test> <!-- Test -->
+ 
+       <test name="Test13:- To verify whether Brooklyn service gives an error message while deleting it">
+    <classes>
+      <class name="cf.test.verifyBrooklynDeleteMsg"/>
+    </classes>
+  </test> <!-- Test -->
+ 
+  
+  <test name="Test14:-To verify if Non Admin user password is changed successfully and able to open dashboard page of Admin user with newly changed password">
+   <classes>
+      <class name="cf.test.ChangeNonAdminUserPass"/>
+   </classes>
+  </test> <!-- Test -->
+  
+  <test name="Test15:-To verify setting page and social icons">
+   <classes>
+      <class name="cf.test.VerifySettingPageAndSocial_Icons"/>
+   </classes>
+  </test> <!-- Test -->
+ 
+ <test name="Test16:-To verify whether the route is created">
+   <classes>
+      <class name="cf.test.verifyCreateRoute"/>
+   </classes>
+  </test> <!-- Test -->
+  
+   <test name="Test17:-To validate max length of the available character in text boxes while creating an org ">
+   <classes>
+      <class name="cf.test.VerifyMaxOrgNameLength"/>
+   </classes>
+  </test> <!-- Test -->
+  
+   <test name="Test18:-To validate max length of the available character in text boxes while creating an SPACE ">
+   <classes>
+      <class name="cf.test.VerifyMaxSpaceNameLength"/>
+   </classes>
+  </test> <!-- Test -->
+  
+   <test name="Test19:-To validate max length of the available character in text boxes while creating an INSTANCE ">
+   <classes>
+      <class name="cf.test.VerifyMaxInstanceNameLength"/>
+   </classes>
+  </test> <!-- Test -->
+  
+   <test name="Test20:-To verify whether a user is able to create a cups services from console using selenium script ">
+   <classes>
+      <class name="cf.test.VerifyUserCupsCreation"/>
+   </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Test21:-To verify user assigned message from console using selenium script ">
+   <classes>
+      <class name="cf.test.verifyActionMessageAccessRole"/>
+   </classes>
+  </test> <!-- Test -->
+ 
+    <test name="Test22:-To validate max length of the available character in text boxes while creating a Domain Name ">
+   <classes>
+      <class name="cf.test.VerifyMaxDomainNameLength"/>
+   </classes>
+   </test> <!-- Test -->
+   
+     <test name="Test23:-To validate max length of the available character in text boxes while setting ENV Variable using selenium Script ">
+   <classes>
+      <class name="cf.test.VerifyMaxEnvVariableLength"/>
+   </classes>
+   </test> <!-- Test -->
+   
+     <test name="Test24:-To validate max length of the available character in text boxes while creating ROUTE using selenium Script ">
+   <classes>
+      <class name="cf.test.VerifyRouteNameMaxLength"/>
+   </classes>
+   </test> <!-- Test -->
+   
+     <test name="Test25:-To verify the  invalid characters for password   using selenium Script ">
+   <classes>
+      <class name="cf.test.VerifyUserPwrdValidation"/>
+   </classes>
+   </test> <!-- Test -->
+  
+    <test name="Test26:-To verify the breadcrumb navigation for console   using selenium Scriptt ">
+   <classes>
+      <class name="cf.test.VerifyBreadcrumbNavigation"/>
+   </classes>
+  </test> <!-- Test -->
+  
+    <test name="Test27:-To verify whether a user can create a domain from console  ">
+   <classes>
+      <class name="cf.test.VerifyDomainNameCreation"/>
+   </classes>
+  </test> <!-- Test -->
+  
+  <test name="Test28:-To Verify with the Login Validations  ">
+   <classes>
+      <class name="cf_category.VerifyLoginValidations"/>
+   </classes>
+  </test> <!-- Test -->
+  
+   <test name="Test29:-To verify whether Twitter/Youtube/linkedIN Link is navigated to Twitter/Youtube/LinkedIN Page  ">
+   <classes>
+      <class name="cf_category.LinksTest"/>
+   </classes>
+  </test> <!-- Test -->
+  
+  <test name="Test30:-To verify for multi-lingual support on console login page ">
+   <classes>
+      <class name="cf.test.VerifyMultiLingualSupport"/>
+   </classes>
+  </test> <!-- Test -->
+  
+  <!-- addedd browser disclaimer text ,footer text,cfproductdetails, copyright message, columnonBuildpacks tc in cf_category as verify text  -->
+  <!-- modified by harshali 10th oct  -->
+   <test name="Test31:-To verify footer text/CopyrightMessage/cfProduct Details/Column On Test BuildPacks/disclaimer text ">
+   <classes>
+      <class name="cf_category.VerifyText"/>
+   </classes>
+  </test> <!-- Test -->
+ 
+   <test name="Test32:-To Verify if user can access CF according to Auditor/Billing Manager/Mnager/User as a role  ">
+   <classes>
+      <class name="cf_category.assignRoleFunctionalites"/>
+   </classes>
+  </test> <!-- Test -->
+  
+  <!--added pagination of org,space, delete org, delete space in verifyPagination in cf_category  modified by harshali -->
+   <test name="Test33:-To verify Pagination of an Organization on Dashboard  ">
+   <classes>
+      <class name="cf_category.VerifyPagination"/>
+   </classes>
+  </test> <!-- Test -->
+  
+  <test name="Test 34:-Verify FAQ and User Guide links are working using Selenium Script ">
+    <classes>
+      <class name="cf.test.VerifyFAQandUserGuidLinks"/>
+    </classes>
+  </test> <!-- Test --> 
+  <test name="Test 35:-Verify App Rename functionality is working using Selenium Script ">
+    <classes>
+      <class name="cf.test.verifyAppRename"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Test 36:-Verify the Updation of User provided Service instances on chrome browser for UI through selenium">
+    <classes>
+      <class name="cf.test.UpdateUserProvidedServiceInstance"/>
+    </classes>
+  </test> <!-- Test -->
+  
+ 
+  <test name="TestLast:- AfterSuite">
+                <classes>
+                        <class name="cf.test.testBasic" />
+                </classes>
+        </test> <!-- Test -->
+  <!-- Test --> 
+</suite> <!-- Suite -->

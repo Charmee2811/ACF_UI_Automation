@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="UI_Console_Smoke">
+ 
+    <test name="Test 36:-Verify the Updation of User provided Service instances on chrome browser for UI through selenium">
+    <classes>
+      <class name="cf.test.UpdateUserProvidedServiceInstance"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Test1:- Basic">
+    <classes>
+       <class name="cf.test.testBasic" />
+     </classes>
+     
+   </test>  
+</suite> <!-- Suite -->
